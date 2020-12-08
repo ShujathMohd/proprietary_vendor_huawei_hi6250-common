@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter anne figo,$(TARGET_DEVICE)),)
+ifneq ($(filter anne bnd figo,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := chargeonlymode
